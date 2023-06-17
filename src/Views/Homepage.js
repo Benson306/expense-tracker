@@ -12,7 +12,7 @@ const Homepage = () => {
 
                 <button className="bg-sky-600 p-2 px-5 mt-10 rounded-3xl text-white flex place-items-center">
                     Get Started
-                    <EastIcon color="white" style={{marginLeft:5}} />
+                    <EastIcon color="white" style={{marginLeft:6}} />
                 </button>
             </div>
             
