@@ -4,7 +4,7 @@ const Expenditure = () => {
     return ( 
     <div className="w-full min-h-screen bg-neutral-300 ">
 
-        <HeaderBar />
+        <HeaderBar title={"Expenditures"} />
         
         <div className="p-5">
             Expenditure

@@ -40,7 +40,7 @@ const Sidebar = () => {
 
         <MenuIcon htmlColor="#0284c7" style={{float: 'right', marginRight: 12, marginTop: 50, marginBottom: 20}} onClick={handleSidebar}/>
 
-        <div className="mt-28" style={{marginLeft: isOpen ? '32px' : '10px'}}>
+        <div className="mt-28" style={{marginLeft: isOpen ? '30px' : '10px', marginRight:'10px'}}>
         {
             sidebarItems.map(item=>(
                 <Link className="flex text-white py-5 align-middle gap-4 hover:text-blue-400" to={item.route}>

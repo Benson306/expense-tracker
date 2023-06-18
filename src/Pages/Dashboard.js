@@ -1,13 +1,17 @@
 import HeaderBar from "../Components/HeaderBar";
+import Statictics from "../Components/Statistics";
+
 
 const Dashboard = () => {
     return ( 
     <div className="w-full min-h-screen bg-neutral-300 ">
 
-        <HeaderBar />
-        
+        <HeaderBar title={"Dashboard"} />
+
         <div className="p-5">
-            Dashboard
+            {/* Statictics */}
+
+            <Statictics />
             
             
         </div>
