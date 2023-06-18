@@ -10,9 +10,14 @@ import Budget from './Pages/Budget';
 function App() {
   return (
     <BrowserRouter>
+
+    
     <Routes>
         <Route path="/" element={<Homepage />} />
+    </Routes>
 
+    <div className='flex'>
+    <Routes>
         <Route
           path="/dashboard"
           element={
@@ -41,6 +46,7 @@ function App() {
         }
         />
       </Routes>
+      </div>
     </BrowserRouter>
 
   );
