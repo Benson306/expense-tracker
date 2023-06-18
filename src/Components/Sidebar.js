@@ -30,15 +30,13 @@ const Sidebar = () => {
 
     const [ isOpen, setIsOpen ] = useState(false);
 
-    const [width, setWidth] = useState('w-1/5');
-
 
     const handleSidebar = () =>{
          
         setIsOpen(!isOpen);
     }
     return (
-    <div className='min-h-screen bg-gradient-to-l from-slate-800 via-slate-800 to-slate-900 mr-2' style={{ width: isOpen ? '260px': '50px'}} >
+    <div className='min-h-screen bg-gradient-to-l from-slate-800 via-slate-800 to-slate-900' style={{ width: isOpen ? '260px': '50px'}} >
 
         <MenuIcon htmlColor="#0284c7" style={{float: 'right', marginRight: 12, marginTop: 50, marginBottom: 20}} onClick={handleSidebar}/>
 
