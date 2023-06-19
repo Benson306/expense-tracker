@@ -14,7 +14,7 @@ const Budget = () => {
         <HeaderBar title={"Expenditures"} />
         
         <div className="p-5">
-            <button className="p-3 shadow-sm bg-red-500 rounded-lg text-white flex place-items-center mx-10" onClick={() => setShowModal(true)}> 
+            <button className="p-3 shadow-sm bg-lime-800 rounded-lg text-white flex place-items-center mx-10" onClick={() => setShowModal(true)}> 
                 <AddIcon /> 
                 Set Monthly Budget
             </button>
@@ -108,7 +108,7 @@ const Budget = () => {
                         <td className="px-6 py-4">Jun 2023</td>
                         <td className="px-6 py-4">20000</td>
                         <td className="flex px-6 py-4">
-                            <BorderColorIcon htmlColor="green" style={{marginRight:'20px'}}/> 
+                            <BorderColorIcon htmlColor="blue" style={{marginRight:'20px'}}/> 
                             
                             <DeleteIcon htmlColor="red" />  
                         </td>

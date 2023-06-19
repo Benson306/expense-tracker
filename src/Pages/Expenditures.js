@@ -115,7 +115,7 @@ const Expenditure = () => {
                         <td className="px-6 py-4">2000</td>
                         <td className="px-6 py-4">Jun 20, 2023</td>
                         <td className="flex px-6 py-4">
-                            <BorderColorIcon htmlColor="green" style={{marginRight:'20px'}}/> 
+                            <BorderColorIcon htmlColor="blue" style={{marginRight:'20px'}}/> 
                             
                             <DeleteIcon htmlColor="red" />  
                         </td>
