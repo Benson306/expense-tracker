@@ -6,7 +6,7 @@ const Statictics = () => {
     return ( 
         <div className="block lg:flex justify-evenly">
 
-                <div className="flex place-items-center bg-gray-200 p-5 shadow-lg rounded-lg lg:w-80 mb-5">
+                <div className="flex place-items-center bg-gray-50 p-5 shadow-lg rounded-lg lg:w-80 mb-5">
                     <div className="align-middle">
                         <PaidIcon fontSize="large" />
                     </div>
@@ -17,7 +17,7 @@ const Statictics = () => {
                     
                 </div>
 
-                <div className="flex place-items-center bg-gray-200 p-5 shadow-lg rounded-lg  lg:w-80 mb-5">
+                <div className="flex place-items-center bg-gray-50 p-5 shadow-lg rounded-lg  lg:w-80 mb-5">
                     <div className="align-middle">
                         <MoneyIcon fontSize="large" />
                     </div>
@@ -28,7 +28,7 @@ const Statictics = () => {
                     
                 </div>
 
-                <div className="flex place-items-center bg-gray-200 p-5 shadow-lg rounded-lg lg:w-80 mb-5">
+                <div className="flex place-items-center bg-gray-50 p-5 shadow-lg rounded-lg lg:w-80 mb-5">
                     <div className="align-middle">
                         <CurrencyExchangeIcon fontSize="large" />
                     </div>
