@@ -41,7 +41,7 @@ Start the application:
 
     npm run start
 
-    Open your browser and visit http://localhost:3000 to access the Expense Tracker.
+Open your browser and visit http://localhost:3000 to access the Expense Tracker.
 
 ## License
 
