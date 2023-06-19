@@ -1,4 +1,4 @@
-const storedState = localStorage.getItem('state');
+const storedState = localStorage.getItem('exptracker');
 
 export const initialState = storedState ? JSON.parse(storedState) :{
                                                                         expenditures: [],
@@ -17,35 +17,35 @@ const Reducer = (state, action) =>{
                 ...state,
                 expenditures: payload.expenditures
             }
-            localStorage.setItem('state', JSON.stringify(addState));
+            localStorage.setItem('exptracker', JSON.stringify(addState));
             return addState;
         case "REMOVE_EXPENDITURE":
             let newState = {
                 ...state,
                 expenditures: payload.expenditures
             }
-            localStorage.setItem('state', JSON.stringify(newState));
+            localStorage.setItem('exptracker', JSON.stringify(newState));
             return newState;
         case "UPDATE_EXPENDITURE":
             let updateState = {
                 ...state,
                 expenditures: payload.expenditures
             }
-            localStorage.setItem('state', JSON.stringify(updateState));
+            localStorage.setItem('exptracker', JSON.stringify(updateState));
             return updateState;
             case "ADD_BUDGET":
                 let addBudget ={
                     ...state,
                     budgets: payload.budgets
                 }
-                localStorage.setItem('state', JSON.stringify(addBudget));
+                localStorage.setItem('exptracker', JSON.stringify(addBudget));
                 return addState;
             case "REMOVE_BUDGET":
                 let newBudget = {
                     ...state,
                     budgets: payload.budgets
                 }
-                localStorage.setItem('state', JSON.stringify(newBudget));
+                localStorage.setItem('exptracker', JSON.stringify(newBudget));
                 return newState;
             case "UPDATE_BUDGET":
                 let updateBudgate = {
@@ -59,7 +59,7 @@ const Reducer = (state, action) =>{
                         expenditures:[],
                         budgets: []
                 }
-                localStorage.removeItem('state');
+                localStorage.removeItem('exptracker');
                 return clear;
         default:
             throw new Error(`No case for type ${type} found in reducer`)

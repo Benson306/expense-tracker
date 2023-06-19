@@ -6,10 +6,13 @@ import Sidebar from './Components/Sidebar';
 import Dashboard from './Pages/Dashboard';
 import Expenditures from './Pages/Expenditures';
 import Budget from './Pages/Budget';
+import { BudgetExpProvider } from './Utils/BudgetExpContext';
 
 function App() {
   return (
     <BrowserRouter>
+
+    <BudgetExpProvider>
 
     
     <Routes>
@@ -47,6 +50,8 @@ function App() {
         />
       </Routes>
       </div>
+
+      </BudgetExpProvider>
     </BrowserRouter>
 
   );
