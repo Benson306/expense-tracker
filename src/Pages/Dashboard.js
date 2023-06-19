@@ -32,7 +32,7 @@ const Dashboard = () => {
                         </thead>
                         <tbody className="mb-2">
                         {
-                                expenditures.slice(2).reverse().map(budg =>(
+                                expenditures.slice().reverse().map(budg =>(
                                 <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700 mb-2" key={budg.id}>
                                     <td className="px-6 py-4">{budg.title}</td>
                                     <td className="px-6 py-4">{budg.amount}</td>
@@ -62,7 +62,7 @@ const Dashboard = () => {
                         </thead>
                         <tbody className="mb-2">
                         {
-                                budgets.reverse().map(budg =>(
+                                budgets.slice().reverse().map(budg =>(
                                 <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700 mb-2" key={budg.id}>
                                     <td className="px-6 py-4">{budg.month}</td>
                                     <td className="px-6 py-4">{budg.amount}</td>                                  
