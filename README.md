@@ -14,10 +14,9 @@ Features
 ## Prerequisites
 
 Before running the application, ensure that you have Node.js and npm installed on your machine.
-'''
+
     Node.js
     npm
-'''
 
 ## Installation
 
