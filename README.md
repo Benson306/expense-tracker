@@ -1,4 +1,4 @@
-##Expense Tracker
+## Expense Tracker
 
 This is a simple Expense Tracker application built with React JS and React Router DOM 6. It allows you to track your expenses, manage monthly budgets, and perform various operations such as adding, editing, and deleting expenses.
 Features
@@ -11,7 +11,7 @@ Features
     Delete Monthly Budget: Remove the monthly budget.
     Update Monthly Budget: Change the amount of the monthly budget.
 
-##Prerequisites
+## Prerequisites
 
 Before running the application, ensure that you have Node.js and npm installed on your machine.
 '''
@@ -19,17 +19,17 @@ Before running the application, ensure that you have Node.js and npm installed o
     npm
 '''
 
-###Installation
+## Installation
 
     Clone the repository or download the source code:
 
-'''bash
+bash
 
 git clone https://github.com/your-username/expense-tracker.git
 
     Navigate to the project directory:
 
-'''
+bash
 
 cd expense-tracker
 
@@ -49,14 +49,15 @@ npm run start
 
     Open your browser and visit http://localhost:3000 to access the Expense Tracker.
 
-##License
+## License
 
 This project is licensed under the MIT License.
 
-##Contributing
+## Contributing
 
 Contributions are welcome! If you have any suggestions, improvements, or new features to add, please open an issue or submit a pull request.
-Acknowledgements
+
+## Acknowledgements
 
 This Expense Tracker application is built using the following technologies and libraries:
 
@@ -67,8 +68,9 @@ This Expense Tracker application is built using the following technologies and l
 
 Special thanks to the React community for their excellent documentation and resources.
 
-##Contact
+## Contact
 
 For any inquiries or feedback, please contact Your Name.
 
 Feel free to explore and use this Expense Tracker to effectively manage your expenses and budgets. Happy tracking!
+
