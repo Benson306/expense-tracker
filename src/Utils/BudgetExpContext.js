@@ -57,13 +57,59 @@ export const BudgetExpProvider = ({ children }) =>{
 
     }
 
+    const addBudget = (budget) =>{
+
+        let updatedBudget = state.budgets.concat(budget);
+
+        dispatch({
+            type:"ADD_BUDGET",
+            payload:{
+                budgets: updatedBudget
+            }
+        })
+
+    }
+
+    
+
+    const delBudget = (id) =>{
+        let updatedBudget = state.budgets.filter(currentBudget =>
+            currentBudget.id != id
+        )
+
+        dispatch({
+            type:"REMOVE_BUDGET",
+            payload:{
+                budgets: updatedBudget
+            }
+        })
+
+    }
+
+    const updateBudget = (budget) =>{
+
+        const itemIndex = state.budgets.findIndex(item => item.id === budget.id);
+
+        state.budgets[itemIndex] = budget;
+
+        dispatch({
+            type:"UPDATE_BUDGET",
+            payload:{
+                budgets: state.budgets
+            }
+        })
+
+    }
+
     let value ={
         expenditures: state.expenditures,
-        bugets: state.bugets,
+        budgets: state.budgets,
         addExpenditure,
         delExpenditure,
-        updateExpenditure
-
+        updateExpenditure,
+        addBudget,
+        delBudget,
+        updateBudget
     }
 
 

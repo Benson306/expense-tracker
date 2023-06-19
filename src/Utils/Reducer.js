@@ -39,21 +39,21 @@ const Reducer = (state, action) =>{
                     budgets: payload.budgets
                 }
                 localStorage.setItem('exptracker', JSON.stringify(addBudget));
-                return addState;
+                return addBudget;
             case "REMOVE_BUDGET":
                 let newBudget = {
                     ...state,
                     budgets: payload.budgets
                 }
                 localStorage.setItem('exptracker', JSON.stringify(newBudget));
-                return newState;
+                return newBudget;
             case "UPDATE_BUDGET":
                 let updateBudgate = {
                     ...state,
                     budgets: payload.budgets
                 }
-                localStorage.setItem('state', JSON.stringify(updateBudgate));
-                return updateState;
+                localStorage.setItem('exptracker', JSON.stringify(updateBudgate));
+                return updateBudgate;
             case "CLEAR_STATE":
                 let clear = {
                         expenditures:[],
