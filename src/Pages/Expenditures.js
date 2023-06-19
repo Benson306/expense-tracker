@@ -231,7 +231,7 @@ const Expenditure = () => {
                 </thead>
                 <tbody className="mb-2">
                     {
-                        expenditures.map(exp =>(
+                        expenditures.slice().reverse().map(exp =>(
                         <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700 mb-2" key={exp.id}>
                             <td className="px-6 py-4">{exp.id}</td>
                             <td className="px-6 py-4">{exp.title}</td>

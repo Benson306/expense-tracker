@@ -216,7 +216,7 @@ const Budget = () => {
                 </thead>
                 <tbody className="mb-2">
                 {
-                        budgets.map(budg =>(
+                        budgets.slice().reverse().map(budg =>(
                         <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700 mb-2" key={budg.id}>
                             <td className="px-6 py-4">{budg.id}</td>
                             <td className="px-6 py-4">{budg.month}</td>
