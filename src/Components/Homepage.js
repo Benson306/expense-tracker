@@ -26,11 +26,10 @@ const Homepage = () => {
         <LandingHeaderBar />
 
         <div className="lg:flex flex-row ">
+
             <div className="w-3/4 lg:w-1/2 mt-20 lg:mt-40 mx-10 lg:mx-14">
                 <h1 className="text-white mb-5 text-3xl lg:text-4xl font-bold tracking-wider">Take control of your finances with our intelligent expense tracker - the key to financial freedom!</h1>
                 <h3 className="pt-4 text-lg lg:text-xl text-gray-500 ">Effortlessly track every penny you spend, stay on top of your budget, and achieve your financial goals with our intuitive expense tracker. Start making smarter financial decisions today!</h3>
-
-                
             </div>
             
         </div>
