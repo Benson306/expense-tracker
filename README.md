@@ -21,31 +21,25 @@ Before running the application, ensure that you have Node.js and npm installed o
 
 ## Installation
 
-    Clone the repository or download the source code:
+Clone the repository or download the source code:
 
-bash
 
-git clone https://github.com/your-username/expense-tracker.git
+    git clone https://github.com/Benson306/expense-tracker
 
-    Navigate to the project directory:
+Navigate to the project directory:
 
-bash
 
-cd expense-tracker
+    cd expense-tracker
 
-    Install the dependencies:
+Install the dependencies:
 
-bash
+    npm install
 
-npm install
+## Usage
 
-Usage
+Start the application:
 
-    Start the application:
-
-bash
-
-npm run start
+    npm run start
 
     Open your browser and visit http://localhost:3000 to access the Expense Tracker.
 
